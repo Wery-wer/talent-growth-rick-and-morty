@@ -15,7 +15,6 @@ const Login = () => {
       return;
     }
 
-    // Simpan status login
     localStorage.setItem("isAuthenticated", "true");
     navigate("/profile");
   };
